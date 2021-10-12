@@ -236,6 +236,25 @@ img {
 }
 
 
+/* Social Icons */
+
+#face:hover {
+    color: #3b5998;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#youtube:hover {
+    color: #FF0000;
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+}
+
+
 /* Mobile */
 
 @media(max-width: 768px) {
@@ -251,8 +270,9 @@ img {
     .flex-items {
         flex-direction: column;
     }
-    #about .flex-items i {
-        display: none;
+    .flex-items {
+        align-items: center;
+        top: 0;
     }
     .flex-coloumn .column {
         flex: 100%;
